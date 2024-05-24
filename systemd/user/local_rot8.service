@@ -1,0 +1,12 @@
+[Unit]
+Description=Automatically rotate display
+PartOf=graphical-session.target
+After=graphical-session.target
+ConditionEnvironment=WAYLAND_DISPLAY
+
+[Service]
+ExecStart=/usr/bin/rot8 --sleep 1000 --hooks "~/.config/sway/bin/gestures"
+
+[Install]
+WantedBy=graphical-session.target
+

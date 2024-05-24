@@ -1,0 +1,11 @@
+[Unit]
+Description=Display colour temperature adjustment
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/gammastep -c ${HOME}/.config/sway/plugins/gammastep/config.ini
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target

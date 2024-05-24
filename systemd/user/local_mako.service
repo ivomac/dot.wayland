@@ -1,0 +1,15 @@
+[Unit]
+Description=Lightweight Wayland notification daemon
+Documentation=man:mako(1)
+PartOf=graphical-session.target
+After=graphical-session.target
+ConditionEnvironment=WAYLAND_DISPLAY
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.Notifications
+ExecStart=/usr/bin/mako --font='Fira Mono 14' --default-timeout=3000 --margin=30,50 --border-radius=8 -c ${HOME}/.config/sway/plugins/mako/colors/default
+ExecReload=/usr/bin/makoctl reload
+
+[Install]
+WantedBy=graphical-session.target

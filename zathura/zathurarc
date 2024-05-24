@@ -1,0 +1,58 @@
+
+include /home/ivo/.config/zathura/colors/default
+
+set database                "sqlite"
+
+set selection-clipboard     "clipboard"
+
+set n-completion-items      12
+
+set abort-clear-search      true
+set search-hadjust          false
+
+set advance-pages-per-row   true
+
+set incremental-search      true
+
+set synctex true
+
+set guioptions              ""
+
+set font                    "Fira Mono 16"
+
+set adjust-open             "width"
+
+set window-icon             true
+set window-title-basename   true
+set window-title-home-tilde true
+set window-title-page       true
+
+set statusbar-basename      true
+set statusbar-home-tilde    true
+set statusbar-h-padding     1
+set statusbar-v-padding     1
+
+set recolor                 true
+set recolor-keephue         true
+set recolor-reverse-video   false
+
+set show-directories        true
+set show-hidden             true
+
+map , goto
+map P print
+map [normal] j scroll half-down
+map [normal] k scroll half-up
+map [normal] i toggle_statusbar
+
+map [normal] p toggle_presentation
+map [presentation] p toggle_presentation
+
+map [presentation] j navigate next
+map [presentation] k navigate previous
+
+map [presentation] G goto bottom
+map [presentation] gg goto top
+map [presentation] , goto
+map [presentation] i toggle_statusbar
+

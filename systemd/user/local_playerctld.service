@@ -1,0 +1,11 @@
+[Unit]
+Description=Control MPRIS-compliant media players
+PartOf=graphical-session.target
+After=graphical-session.target
+ConditionEnvironment=WAYLAND_DISPLAY
+
+[Service]
+ExecStart=/usr/bin/playerctld daemon
+
+[Install]
+WantedBy=graphical-session.target

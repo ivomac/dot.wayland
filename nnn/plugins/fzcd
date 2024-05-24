@@ -1,0 +1,60 @@
+#!/usr/bin/env zsh
+
+# Description: Fuzzy search multiple locations read-in from a path-list file
+#              (or $PWD) and open the selected file's dir in a smart context.
+# Dependencies: fzf, find (only for multi-location search)
+#
+# Details: Paths in list file should be newline-separated absolute paths.
+#          Paths can be file paths; the script will scan the parent dirs.
+#
+#          The path-list file precedence is:
+#          - "$1" (the hovered file) if it exists, is plain-text and the
+#                 first line points to an existing file
+#          - "$LIST" if set below
+#          - "$2" (the current directory) [mimics plugin fzcd behaviour]
+#
+#          The path-list file can be generated easily:
+#          - pick the (file)paths in picker mode to path-list file
+#          - OR, edit selection in nnn and save as path-list file
+#
+# Shell: POSIX compliant
+# Author: Anna Arad, Arun Prakash Jana, KlzXS
+
+nnn_cd() {
+	dir="$1"
+
+    if [ -n "$2" ]; then
+        context=$2
+    elif [ $CUR_CTX -ne 1 ]; then
+        printf "Choose context 1-4 (blank for current): "
+        read -r context
+    fi
+
+    printf "%s" "${context:-0}c$dir" > "$NNN_PIPE"
+}
+
+IFS="$(printf '\n\r')"
+
+CTX=+
+
+source "$ZDOTDIR/plugins/fzf/fzf.zsh"
+
+sel=$(eval $FZF_FD_COMMAND | fzf ${_FZF_NNN_PLUGIN_OPTS[@]} )
+
+if [ -n "$sel" ]; then
+    if [ "$sel" = "." ] || { ! [ -d "$sel" ] && ! [ -f "$sel" ]; }; then
+        exit 0
+    fi
+
+    case $sel in
+    /*) nnn_cd "$sel" "$CTX" ;;
+    *)
+        sel="${sel#./}"
+
+        if [ "$PWD" = "/" ]; then
+            nnn_cd "/$sel" "$CTX"
+        else
+            nnn_cd "$PWD/$sel" "$CTX"
+        fi;;
+    esac
+fi

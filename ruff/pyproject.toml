@@ -1,0 +1,16 @@
+[tool.ruff]
+line-length = 100
+indent-width = 4
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = []
+
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
+

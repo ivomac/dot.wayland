@@ -1,0 +1,11 @@
+[Unit]
+Description=Wayland paste utility
+PartOf=graphical-session.target
+After=graphical-session.target
+ConditionEnvironment=WAYLAND_DISPLAY
+
+[Service]
+ExecStart=/usr/bin/wl-paste -t text --watch clipman store --no-persist
+
+[Install]
+WantedBy=graphical-session.target
