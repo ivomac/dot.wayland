@@ -1,0 +1,10 @@
+{
+    "label" : "shutdown",
+    "action" : "shutdown now",
+    "text" : " "
+}
+{
+    "label" : "reboot",
+    "action" : "shutdown -r now",
+    "text" : " "
+}
