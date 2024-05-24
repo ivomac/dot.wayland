@@ -1,0 +1,20 @@
+[1a51f64d-87dc-4c14-b6c1-62547a870c04]
+noborderrule=3
+
+[General]
+count=2
+rules=befcd1d8-d52b-4383-b4cc-30b2b86ada2d,e573e9cb-fce0-48f1-b5a5-914bc6e9d81d
+
+[befcd1d8-d52b-4383-b4cc-30b2b86ada2d]
+Description=Application settings for org.kde.dolphin
+noborder=true
+noborderrule=3
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[e573e9cb-fce0-48f1-b5a5-914bc6e9d81d]
+Description=Fix windows starting on wrong screen
+ignoregeometry=true
+ignoregeometryrule=2
+types=1

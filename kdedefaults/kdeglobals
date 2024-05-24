@@ -1,0 +1,47 @@
+[General]
+ColorScheme=BreezeDark
+TerminalApplication=footclient
+TerminalService=org.codeberg.dnkl.footclient.desktop
+UseSystemBell=true
+fixed=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+font=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+menuFont=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+smallestReadableFont=Fira Mono Medium,9,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+toolBarFont=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+
+[Icons]
+Theme=breeze-dark
+
+[KDE]
+AnimationDurationFactor=0.5
+DoubleClickInterval=300
+ShowDeleteCommand=true
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=0
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Preview Width=226
+Show Bookmarks=true
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=true
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=155
+View Style=Simple
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[WM]
+activeFont=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular

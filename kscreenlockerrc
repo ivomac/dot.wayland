@@ -1,0 +1,6 @@
+[Daemon]
+Timeout=10
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Honeywave/
+PreviewImage=/usr/share/wallpapers/Honeywave/
