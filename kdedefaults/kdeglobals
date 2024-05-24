@@ -1,0 +1,21 @@
+[General]
+ColorScheme=BreezeDark
+TerminalApplication=footclient
+TerminalService=org.codeberg.dnkl.footclient.desktop
+UseSystemBell=true
+fixed=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+font=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+menuFont=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+smallestReadableFont=Fira Mono Medium,9,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+toolBarFont=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+
+[Icons]
+Theme=breeze-dark
+
+[KDE]
+AnimationDurationFactor=0.5
+DoubleClickInterval=300
+widgetStyle=Breeze
+
+[WM]
+activeFont=Fira Mono Medium,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
