@@ -9,7 +9,6 @@ darktable
 dconf
 git
 github-copilot
-gnupg
 inkscape
 jupyter
 libreoffice/4
@@ -37,3 +36,5 @@ systemd/user/git-maintenance@daily.timer
 systemd/user/git-maintenance@hourly.timer
 systemd/user/git-maintenance@weekly.timer
 qutebrowser/quickmarks
+!gnupg/gpg-agent.conf
+gnupg/*
