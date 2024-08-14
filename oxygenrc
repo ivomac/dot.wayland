@@ -1,0 +1,7 @@
+[ActiveShadow]
+InnerColor=74,74,74
+ShadowSize=20
+UseOuterColor=false
+
+[Windeco]
+DrawBorderOnMaximizedWindows=true

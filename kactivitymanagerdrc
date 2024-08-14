@@ -1,0 +1,12 @@
+[activities]
+9ddd5495-78fc-4bb3-b729-40b0885bdcea=Base
+e6bf5d21-9288-4287-bdb5-a659ec13b0d7=Work
+f2835d9a-18ef-4824-8405-8e5373d410c4=Fun
+
+[activities-icons]
+9ddd5495-78fc-4bb3-b729-40b0885bdcea=user-home-symbolic
+e6bf5d21-9288-4287-bdb5-a659ec13b0d7=folder-design-symbolic
+f2835d9a-18ef-4824-8405-8e5373d410c4=folder-games-symbolic
+
+[main]
+currentActivity=9ddd5495-78fc-4bb3-b729-40b0885bdcea

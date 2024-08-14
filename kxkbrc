@@ -1,3 +1,3 @@
 [Layout]
-Options=compose:menu
+Options=compose:menu,caps:escape
 ResetOldOptions=true
