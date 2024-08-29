@@ -43,10 +43,19 @@ padding=4
 [Tiling][190409a1-1cde-55ec-9323-b7bfe092db12]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][26ccbf6e-9a24-5a75-a03c-317d2c7036bf]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][3c8fa33f-e367-58e3-979c-bf17e0dce5d4]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
+[Tiling][aba6b15d-0dfd-58d4-8c53-38644c05ac89]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][bfa8e967-a71a-5abe-8681-d09353435d29]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e9edfcad-6ff7-5ae5-8e6a-c87fa8c00ce6]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [TouchEdges]
