@@ -148,6 +148,7 @@ toolBarFont=Fira Mono,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 AnimationDurationFactor=0.5
 DoubleClickInterval=250
 LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=true
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -173,8 +174,14 @@ View Style=DetailTree
 ScreenScaleFactors=eDP-1=1;
 XwaylandClientsScale=false
 
+[KShortcutsDialog Settings]
+Dialog Size=1498,988
+
 [Locale]
 BinaryUnitDialect=2
+
+[PreviewSettings]
+MaximumRemoteSize=0
 
 [Shortcuts]
 FindNext=

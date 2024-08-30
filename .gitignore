@@ -65,4 +65,8 @@ klipperrc
 nnn/.selection
 flameshot
 okularrc
+ktrashrc
+kservicemenurc
+kiorc
+baloofileinformationrc
 go/telemetry/local
