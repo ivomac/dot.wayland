@@ -63,3 +63,5 @@ kwinrulesrc
 QtProject.conf
 klipperrc
 nnn/.selection
+flameshot
+okularrc
