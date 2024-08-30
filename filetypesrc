@@ -1,4 +1,5 @@
 [EmbedSettings]
+embed-application/pdf=false
 embed-application/x-matroska=false
 embed-audio/aac=false
 embed-audio/mp4=false
