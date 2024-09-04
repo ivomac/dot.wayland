@@ -1,2 +1,6 @@
 [Daemon]
 LockGrace=30
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/MilkyWay/
+PreviewImage=/usr/share/wallpapers/MilkyWay/
