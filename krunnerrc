@@ -3,12 +3,12 @@ FreeFloating=true
 
 [Plugins]
 baloosearchEnabled=false
-browserhistoryEnabled=false
+browserhistoryEnabled=true
 browsertabsEnabled=false
 calculatorEnabled=false
 helprunnerEnabled=false
 krunner_appstreamEnabled=false
-krunner_bookmarksrunnerEnabled=false
+krunner_bookmarksrunnerEnabled=true
 krunner_charrunnerEnabled=false
 krunner_dictionaryEnabled=false
 krunner_katesessionsEnabled=false
