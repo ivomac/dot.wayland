@@ -279,6 +279,9 @@ _launch=none
 kcm-lookandfeel=Meta+T
 kcm-screenlocker=Meta+`
 
+[services][todo.desktop]
+_launch=Meta+\\
+
 [wacomtablet]
 Map to fullscreen=none,Meta+Ctrl+F,Map to fullscreen
 Map to screen 1=none,Meta+Ctrl+1,Map to screen 1
