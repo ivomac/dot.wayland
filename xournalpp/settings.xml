@@ -6,6 +6,8 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Right hand Note Taking Copy"/>
+  <property name="lastSavePath" value="/home/ivo/Downloads"/>
+  <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
@@ -14,10 +16,10 @@
   <property name="displayDpi" value="185"/>
   <property name="mainWndWidth" value="1900"/>
   <property name="mainWndHeight" value="1131"/>
-  <property name="maximized" value="false"/>
+  <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
-  <property name="showSidebar" value="false"/>
-  <property name="sidebarWidth" value="50"/>
+  <property name="showSidebar" value="true"/>
+  <property name="sidebarWidth" value="117"/>
   <property name="sidebarNumberingStyle" value="2"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
@@ -91,6 +93,7 @@
   <!--Config for new pages-->
   <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=false&#10;copyLastPageSettings=false&#10;size=595.275591x841.889764&#10;backgroundType=plain&#10;backgroundColor=#ffebdbb2&#10;"/>
   <property name="sizeUnit" value=""/>
+  <property name="audioFolder" value=""/>
   <property name="audioInputDevice" value="-1"/>
   <property name="audioOutputDevice" value="-1"/>
   <property name="audioSampleRate" value="16000"/>
@@ -110,12 +113,12 @@
   <property name="inputSystemTPCButton" value="false"/>
   <property name="inputSystemDrawOutsideWindow" value="false"/>
   <property name="preferredLocale" value=""/>
-  <property name="stabilizerAveragingMethod" value="0"/>
-  <property name="stabilizerPreprocessor" value="0"/>
+  <property name="stabilizerAveragingMethod" value="2"/>
+  <property name="stabilizerPreprocessor" value="2"/>
   <property name="stabilizerBuffersize" value="20"/>
-  <property name="stabilizerSigma" value="0.5"/>
+  <property name="stabilizerSigma" value="0.6"/>
   <property name="stabilizerDeadzoneRadius" value="1.3"/>
-  <property name="stabilizerDrag" value="0.4"/>
+  <property name="stabilizerDrag" value="0.5"/>
   <property name="stabilizerMass" value="5"/>
   <property name="stabilizerCuspDetection" value="true"/>
   <property name="stabilizerFinalizeStroke" value="true"/>
@@ -130,7 +133,7 @@
   <property name="latexSettings.sourceViewAutoIndent" value="true"/>
   <property name="latexSettings.sourceViewSyntaxHighlight" value="true"/>
   <property name="latexSettings.sourceViewShowLineNumbers" value="false"/>
-  <property name="font" font="Fira Mono" size="14"/>
+  <property name="font" font="Fira Mono" size="12"/>
   <data name="buttonConfig">
     <data name="default">
       <attribute name="color" type="hex" value="ff000000"/>
@@ -211,7 +214,7 @@
     <attribute name="count" type="int" value="9"/>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="pen"/>
+    <attribute name="current" type="string" value="selectObject"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
@@ -253,7 +256,7 @@
       <attribute name="drawingType" type="string" value="strokeRecognizer"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="127"/>
-      <attribute name="size" type="string" value="MEDIUM"/>
+      <attribute name="size" type="string" value="THIN"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">
