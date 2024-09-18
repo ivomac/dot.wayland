@@ -72,3 +72,5 @@ baloofileinformationrc
 go/telemetry/local
 pavucontrol.ini
 xournalpp/metadata
+pdfarranger/config.ini
+rclone/rclone.conf
