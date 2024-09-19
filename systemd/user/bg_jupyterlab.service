@@ -4,7 +4,7 @@ Description=Jupyter Lab
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/jupyter lab --autoreload --no-browser --port=8888 --ip=127.0.0.1 --notebook-dir=~
+ExecStart=/usr/bin/jupyter lab --autoreload
 WorkingDirectory=~
 Restart=always
 

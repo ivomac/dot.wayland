@@ -10,7 +10,6 @@ gtk-3.0/assets
 inkscape
 ipython/profile_default/history.sqlite
 ipython/profile_default/startup/README
-jupyter
 kdeconnect
 libaccounts-glib
 libreoffice/4
@@ -74,3 +73,5 @@ pavucontrol.ini
 xournalpp/metadata
 pdfarranger/config.ini
 rclone/rclone.conf
+jupyter/*
+!jupyter/jupyter_lab_config.py
