@@ -73,5 +73,5 @@ Placement=Smart
 SnapOnlyWhenOverlapping=true
 
 [org.kde.kdecoration2]
-library=org.kde.oxygen
-theme=Oxygen
+BorderSize=None
+BorderSizeAuto=false

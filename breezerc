@@ -1,0 +1,6 @@
+[Common]
+OutlineIntensity=OutlineMaximum
+
+[Windeco]
+ButtonSize=ButtonSmall
+DrawBackgroundGradient=true
