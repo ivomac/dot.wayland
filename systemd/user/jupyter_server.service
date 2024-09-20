@@ -1,11 +1,10 @@
 
 [Unit]
-Description=Jupyter Lab
+Description=Jupyter Server
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/jupyter lab --autoreload
-WorkingDirectory=~
+ExecStart=/usr/bin/jupyter server
 Restart=always
 
 [Install]
