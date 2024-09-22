@@ -74,5 +74,5 @@ xournalpp/metadata
 pdfarranger/config.ini
 rclone/rclone.conf
 jupyter/*
-!jupyter/jupyter_lab_config.py
+!jupyter/jupyter_server_config.py
 aichat/config.yaml
