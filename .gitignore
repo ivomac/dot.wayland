@@ -76,3 +76,5 @@ rclone/rclone.conf
 jupyter/*
 !jupyter/jupyter_server_config.py
 aichat/config.yaml
+pano
+hugin.conf

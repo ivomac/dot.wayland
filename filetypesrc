@@ -1,6 +1,9 @@
 [EmbedSettings]
+embed-application/json=false
 embed-application/pdf=false
+embed-application/x-docbook+xml=false
 embed-application/x-matroska=false
+embed-application/x-yaml=false
 embed-audio/aac=false
 embed-audio/mp4=false
 embed-audio/mpeg=false
@@ -25,6 +28,9 @@ embed-image/jpeg=false
 embed-image/png=false
 embed-image/webp=false
 embed-inode/directory=false
+embed-text/markdown=false
+embed-text/plain=false
+embed-text/x-cmake=false
 embed-video/3gp=false
 embed-video/3gpp=false
 embed-video/3gpp2=false
@@ -57,3 +63,4 @@ embed-video/x-ogm=false
 embed-video/x-ogm+ogg=false
 embed-video/x-theora=false
 embed-video/x-theora+ogg=false
+embed-x-scheme-handler/geo=false
