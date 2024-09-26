@@ -39,7 +39,7 @@ CTX=+
 
 source "$ZDOTDIR/plugins/fzf/fzf.zsh"
 
-sel=$(eval $FZF_FD_COMMAND | fzf ${_FZF_NNN_PLUGIN_OPTS[@]} )
+sel=$(eval $FZF_FD_COMMAND --color=never | fzf ${_FZF_NNN_PLUGIN_OPTS[@]} )
 
 if [ -n "$sel" ]; then
     if [ "$sel" = "." ] || { ! [ -d "$sel" ] && ! [ -f "$sel" ]; }; then
