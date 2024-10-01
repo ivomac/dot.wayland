@@ -181,6 +181,7 @@ Dialog Size=1498,988
 BinaryUnitDialect=2
 
 [PreviewSettings]
+EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
 
 [Shortcuts]
