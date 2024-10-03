@@ -1,3 +1,6 @@
+[Core Performance]
+MemoryLevel=Aggressive
+
 [Dlg Accessibility]
 RecolorBackground=40,40,40
 RecolorForeground=204,204,204
