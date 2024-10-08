@@ -58,6 +58,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 [Tiling][55c3c6d7-6f55-5266-943e-cc75d862efbd]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][73cc770e-7dce-5d2f-9b02-e4ecd5b33bbe]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][aba6b15d-0dfd-58d4-8c53-38644c05ac89]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
